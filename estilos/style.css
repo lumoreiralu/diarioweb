@@ -1,0 +1,154 @@
+.pie-de-pagina{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+h1{
+    color: #8F305B;
+    width: 400px;
+    height: 10px;
+    background-color: initial;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    border: 10px; 
+    border-style: double;
+    border-color: pink;
+    margin: 10px;
+    text-align: center;
+    
+}
+body{
+    background-image: url(../imagenes/perrito.jpg);
+    background-repeat: initial;
+}
+#notipoli{
+    color: #2c732e ;
+}
+#notidepor{
+    color: #81A035;
+}
+
+#parrafodistinto{
+    color: #983351;
+    text-align: right;
+    background-color: azure;
+}
+ul{
+    color: coral;
+    text-align: justify;
+}
+.bloque1-1{
+    width: 200px;   
+    height: 100px;
+    background-color: papayawhip;
+    background-size: contain;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    margin: 5px;
+    border: #8F305B;
+    border-style: groove;
+    border-color: violet;
+
+}
+#titulolista{
+    color: #4D2C73;
+    text-decoration: double;
+    text-align: center;
+    text-decoration-style: wavy;
+}
+#enlacevideo{
+    color: aliceblue;
+    text-decoration: dotted;
+    text-align: center;
+    text-decoration-line: blue
+}
+#imagenmover{
+    display: flex;
+    padding: 5px;
+    border-color: #c01146;
+    margin: 10px;
+    border-style: groove;
+    border-width: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+    width: 325px;
+}
+
+
+#bloque1{
+    display: flex;
+}
+
+.izquierda{
+    background-color: #81A035;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: chocolate;
+    margin: 30px;
+    width: 90px;
+    content: icon;
+}
+
+.derecha{
+    width: 30px;
+    padding: 10px;
+    border: 10px;
+    margin: 5px;
+    border-bottom: #983351;
+}
+#bloque2{
+    display: flex;
+    justify-content: start;
+}
+
+.izquierda1{
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.derecha1{
+    background-color: #df3bbe;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px;
+    width: 150px;
+    content: icon;
+
+}
+
+#parra2{
+    margin: 10px;
+    padding: 10px;
+    height: 20px;
+    color: aliceblue;
+}
+
+.botonera{
+    display: flex;
+    background-color: darkslategray;
+    padding-left: 0;
+}
+
+.boton{
+    list-style: none;
+    margin: 00px 10px;
+    color:darkorange;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 20px;
+}
+
+li:hover{
+    background: #983351;
+    width: 50px;
+    height: 15px;
+    
+}
