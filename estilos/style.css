@@ -25,7 +25,7 @@ h1{
 }
 body{
     background-image: url(../imagenes/perrito.jpg);
-    background-repeat: initial;
+    background-repeat: inherit;
 }
 #notipoli{
     color: #2c732e ;
@@ -139,16 +139,79 @@ ul{
 
 .boton{
     list-style: none;
-    margin: 00px 10px;
+    margin: 0px 10px;
     color:darkorange;
     text-transform: uppercase;
     padding: 15px;
-    width: 20px;
 }
 
 li:hover{
     background: #983351;
-    width: 50px;
-    height: 15px;
-    
 }
+
+#titulohistoria{
+    color: indianred;
+    border-color: yellow;
+    text-decoration: overline;
+}
+ .parrafohistoria1{
+    color: aliceblue;
+    text-shadow: #c01146;
+    background-color: #8F305B;
+    padding: 0px 20px;
+    margin: 0px 30px;
+    
+ }
+
+ #bloque3{
+    display: flex;
+    align-items: flex-start;
+ }
+ .parrafohistoria2{
+    color: aliceblue;
+    text-shadow: #a5e20c;
+    background-color: #4868ea;
+    padding: 0px 20px;
+    margin: 0px 30px;
+ }
+ .parrafohistoria3{
+    color: aliceblue;
+    text-shadow: #11c051;
+    background-color: #28dc5b;
+    padding: 0px 20px;
+    margin: 0px 30px;
+ }
+ .parrafohistoria4{
+    color: aliceblue;
+    text-shadow: #11c051;
+    background-color: #e9430c;
+    padding: 0px 20px;
+    margin: 0px 30px;
+ }
+
+ .parrafohistoria5{
+    color: aliceblue;
+    text-shadow: #11c051;
+    background-color: #e3ea1a;
+    padding: 0px 20px;
+    margin: 0px 30px;
+ }
+
+ #fotosperritos{
+    display: flexbox;
+ }
+
+ .tamaniofotos{
+   width: 300px;
+   height: 250px;
+    padding: auto;
+    margin: 20px;
+    border-radius: 30px;
+    border-style: ridge;
+    border-color: fuchsia;
+ }
+
+ .bloquebago{
+    display: flex;
+ }
+
