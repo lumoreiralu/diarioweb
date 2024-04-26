@@ -121,6 +121,7 @@ ul{
     margin: 30px;
     width: 150px;
     content: icon;
+    
 
 }
 
@@ -215,3 +216,9 @@ li:hover{
     display: flex;
  }
 
+thead, tr, td{
+    color: black;
+    border: solid;
+    background-color: white;
+    height: 30px;
+}
